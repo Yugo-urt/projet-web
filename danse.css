@@ -1,3 +1,195 @@
-body {
+h1 {
+    display: flex;
+    height: 200px;
+    color: #fed2d1;
+    justify-content: center;
+    align-items: center;
+    font-size: 400%;
+}
+.questions {
+    color: #fed2d1;
+    text-align: center;
+}
 
+.navbar {
+    padding: 10px;
+    background-color: #fed2d1;
+}
+
+.navbar a {
+    color: white;
+}
+
+.theme{
+    cursor: pointer;
+}
+
+.navbar .links ul {
+    display : flex;
+}
+
+.navbar .links ul li {
+    margin : 0 30px;
+}
+
+.navbar .links ul li .active {
+    color: gray;
+    font-weight: bold;
+}
+.navbar .links ul li .dark-logo{
+    height: 20px;
+    width: 20px;
+    
+}
+
+@media screen and (max-width: 600px){
+    .navbar .links ul{
+        display :flex;
+        flex-direction: column;
+    }
+}
+
+#chaussons {
+    width: 100%;
+    height:auto;
+    max-height: 300px;
+    object-fit: cover;
+}
+#aurelie {
+    width: 100%;
+    height:auto;
+    max-height: 500px;
+    object-fit: cover;
+}
+#sous-titre  {
+    height: 50px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 150%;
+}
+
+.texte{
+    max-width: 95%;
+    height: auto;
+    text-align: justify;
+}
+
+#autre{
+    text-align: center;
+}
+
+.card-image{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.card {
+    width: 250px; 
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: inline-block; 
+    margin: 40px;
+    text-align: center;
+    color :black;
+}
+.decouverte {
+    text-align: center; 
+}
+
+
+.card-content {
+    padding: 15px;
+}
+
+.card-button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: grey;
+    background-color: #fed2d1;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.card-button:hover {
+    background-color: #ffbaba;
+}
+
+
+.infos {
+    display :flex;
+    flex-direction: column;
+}
+.propos{
+    font-weight: bold;
+}
+
+#iut{
+    width: 150px;
+    max-height: 50px;
+    object-fit: cover;
+}
+
+#logo{
+    width: 150px;
+    max-height: 50px;
+    object-fit: cover;
+    float: right; 
+}
+.degrade {
+    height: 80px;
+    background-image: linear-gradient(to bottom, white,#fed2d1);
+}
+footer{
+    background-color: #fed2d1;
+}
+
+/*mode nuit*/
+
+body.dark{
+    background-color:#1e1e1e;
+    color : #ddd
+}
+
+body.dark h1{
+    color:#7a526b ;
+}
+
+body.dark .questions{
+    color:#7a526b ;
+}
+
+body.dark .navbar{
+    background-color:#7a526b ;
+}
+body.dark .navbar a{
+    color:#1e1e1e;
+}
+
+body.dark .card {
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    color: #ddd;
+}
+
+body.dark .card-button {
+    color: #ddd;
+    background-color: #7a526b;
+}
+
+body.dark .card-button:hover {
+    background-color: #5d3e50;
+}
+
+body.dark .degrade {
+    height: 80px;
+    background-image: linear-gradient(to bottom, #1e1e1e,#7a526b);
+}
+body.dark footer{
+    background-color: #7a526b;
 }
