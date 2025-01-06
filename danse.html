@@ -3,27 +3,34 @@
     <head> 
         <!--la danse classique c'est genial--> 
         <meta charset="UTF-8">
+        <meta name="danse" content="site sur la danse classique">
         <title>La danse classique</title> 
         <link href="danse.css" rel="stylesheet"> 
+        <link rel="icon" type="image" href="assets/fav.png" >
     </head> 
     <body class="light"> 
         <header> 
-            <nav class="navbar"> 
-                <div class="links">
-                    <ul> 
-                        <li><a href="accueil.html">Accueil</a></li> 
-                        <li><a class="active" href="#danse.html">Sport</a></li> 
-                        <li><a href="accueil.html">Avis</a></li> 
-                        <li><a href="#contact">Contact</a></li> 
-                        <li>    
-                           <a class="theme">Dark</a>
-                        </li>
-                    </ul> 
-                </div>
-            </nav> 
+            <nav class="navBar">
+                    <div class="nav-links">
+                        <ul>
+                            <li><a href="index.html">Accueil</a></li>
+                            <li class="deroulant">
+                                <a href="index.html/#section-sport">Sport <img  src="https://cdn-icons-png.flaticon.com/512/25/25623.png" alt="fleche"></a>
+                                <ul class="sous-menu">
+                                    <li><a href="index-MMA.html">MMA</a></li>
+                                    <li><a href="danse.html">Danse Classique</a></li>
+                                    <li><a href="skate prototype.html">Skate</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#section-avis">Avis</a></li>
+                            <li><a href="#section-contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <a class="switch-theme">Changer Thème</a>
+                </nav>
         </header> 
         <h1> La Danse Classique </h1> 
-        <img id="chaussons" src="asserts/chaussons.jpeg" alt="image de chaussons de danse" > 
+        <img id="chaussons" src="assets/chaussons.jpg" alt="image de chaussons de danse" > 
         <h2 class="questions"> 
             Qu'est-ce que la danse classique ? 
         </h2> 
@@ -60,7 +67,7 @@
                le 31 décembre 1998 à l’issue d’une représentation de DonQuichotte. Elle fait ses adieux à la scène d l’oOpéra le 18 mai 2015 puis est 
                nommée “Directrice de la Danse” à l’Opéra national de Paris le 4 février 2016.
         </div>
-        <img id="aurelie" src="asserts/aurelie.jpeg" alt="image de aurelie dupont">
+        <img id="aurelie" src="assets/aurelie.jpg" alt="image de aurelie dupont">
         <div id="sous-titre">
             Photo de Aurelie Dupont à l'Opera de Paris
         </div>
@@ -70,34 +77,46 @@
             <div class="decouverte">
                 <!-- Carte MMA -->
                 <div class="card">
-                    <img src="asserts/mma.jpeg" alt="Image mma" class="card-image">
+                    <img src="assets/mma.jpg" alt="Image mma" class="card-image">
                     <div class="card-content">
                         <h2 class="card-title">MMA</h2>
                         <p class="card-text">Un sport de combat très intéressant.</p>
-                        <a href="mma.html" class="card-button">Découvrir</a>
+                        <a href="index-MMA.html" class="card-button">Découvrir</a>
                     </div>
                 </div>
         
                 <!-- Carte Skate -->
                 <div class="card">
-                    <img src="asserts/skate.jpeg" alt="Image skate" class="card-image">
+                    <img src="assets/skate.jpg" alt="Image skate" class="card-image">
                     <div class="card-content">
                         <h2 class="card-title">SKATE</h2>
                         <p class="card-text">Un magnifique sport à regarder et à pratiquer.</p>
-                        <a href="skate.html" class="card-button">Découvrir</a>
+                        <a href="skate prototype.html" class="card-button">Découvrir</a>
                     </div>
                 </div>
             </div>
         <div class="degrade"></div>
-        <footer>
-            <div class="infos">
-                <a class="propos"> A propos de nous</a>
-                <a>Roffidal Ambre</a>
-                <a>El Kassouf Simon</a>
-                <a>Heng Hugo</a>
+        <footer id="section-contact">
+            <div class="footer-contenu">
+                <div class="about">
+                    <h3>À propos de nous</h3>
+                    <ul>
+                        <li>Ambre Roffidal</li>
+                        <li>Hugo Heng</li>
+                        <li>El Kassouf Simon</li>
+                    </ul>
+                </div>
+                <div class="footerbot">
+                    <div class="logo">
+                        <a href="https://iut.univ-amu.fr/fr"><img src="https://cdn.prod.website-files.com/62233c592d2a1e009d42f46c/6721d1e49f177ad82831c78d_6721d128be211c512f8605e3_Logo%2520IUT%2520Aix%2520Marseille.webp" alt="IUT Logo"></a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/iutaixmars/?hl=fr"><img  src="https://www.pngplay.com/wp-content/uploads/5/Instagram-Logo-Dark-Black-PNG.png" alt="Instagram"></a>
+                        <a href="https://www.youtube.com/channel/UCWDTfF0ved1c_bChVrRjjog"><img src="https://cdn-icons-png.flaticon.com/512/152/152810.png" alt="YouTube"></a>
+                        <a href="https://x.com/iutaixmars"><img  src="https://static.vecteezy.com/system/resources/previews/042/148/611/non_2x/new-twitter-x-logo-twitter-icon-x-social-media-icon-free-png.png" alt="X"></a>
+                    </div>
+                </div>
             </div>
-            <img src="asserts/iut-aix.png" alt="logo iut " id="iut">
-            <img src="asserts/logo.png"  alt="logo reseaux" id="logo">
         </footer>
         <script src="danse.js"></script>
     </body> 
