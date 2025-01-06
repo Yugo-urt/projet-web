@@ -1,34 +1,104 @@
-<!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <!--la danse classique c'est genial-->
-        <title>La danse classique</title>
-        <link href="danse.css" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="accueil.html">Accueil</a></li>
-                    <li><a href="danse.html">Sport</a></li>
-                    <li><a href="#accueil.html">Avis</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <h1>
-            La Danse Classique
-        </h1>
-        <img src="assets/chaussons.jpg" alt="image de chaussons de danse"/>
-        <h2 class="questions">
-            Qu'est-ce que la danse classique ?
-        </h2>
-        <article id="texte1">
-           description
-        </article>
-        <h2 class="questions">
-            Qui est Aurélie Dupont ?
-        </h2>
-    </body>
+<!DOCTYPE html> 
+<html lang="fr"> 
+    <head> 
+        <!--la danse classique c'est genial--> 
+        <meta charset="UTF-8">
+        <title>La danse classique</title> 
+        <link href="danse.css" rel="stylesheet"> 
+    </head> 
+    <body class="light"> 
+        <header> 
+            <nav class="navbar"> 
+                <div class="links">
+                    <ul> 
+                        <li><a href="accueil.html">Accueil</a></li> 
+                        <li><a class="active" href="#danse.html">Sport</a></li> 
+                        <li><a href="accueil.html">Avis</a></li> 
+                        <li><a href="#contact">Contact</a></li> 
+                        <li>    
+                           <a class="theme">Dark</a>
+                        </li>
+                    </ul> 
+                </div>
+            </nav> 
+        </header> 
+        <h1> La Danse Classique </h1> 
+        <img id="chaussons" src="asserts/chaussons.jpeg" alt="image de chaussons de danse" > 
+        <h2 class="questions"> 
+            Qu'est-ce que la danse classique ? 
+        </h2> 
+        <div class="texte"> 
+            Tout d'abord un petit cours de vocabulaire : <br>
+            Beaucoup de personnes utilisent le terme “Ballet” pour parler de la danse classique. La danse classique et le ballet peuvent être considérés
+             comme des synonymes, la différence est que le ballet est un spectacle de danse (classique). <br>
+             La Danse Classique est l’ensemble des pas et des mouvements enseignés dans les écoles de danse traditionnelle (opposé à danse moderne et contemporaine).
+              La danse classique est accompagnée de musique classique. <br>
+            La danse classique est d’origine italienne, elle faire son apparition durant la période de la Renaissance au. XVième siècle.
+            Les nobles souhaitant savoir danser avec élégance à l’occasion des mariages. <br>
+            Danse classique rime aux yeux de tous avec élégance et pour cause l’élégance est enseignée à travers toutes les positions de la danse classique.
+                En effet un danseur se soit d’avoir un port tête parfait. La danse classique est la danse parfait si vous voulez apprendre à vous tenir droit
+                 en toutes circonstances. <br>
+            Beaucoup de danseurs et danseuses ont été connus depuis mais nous allons ici parler d’un en particulier : Aurélie Dupont.
+        </div> 
+        <h2 class="questions"> 
+            Qui est Aurelie Dupont ? 
+        </h2> 
+        <div class="texte">
+            <h3>
+                Personnel :
+            </h3>
+            Aurélie Dupont est née le 15 janvier 1973 à Paris d’une mère infirmière et d’un père chercheur. Dès son enfance, 
+            Aurélie Dupont désirait devenir danseuse de ballet, elle a dédié sa vie à la danse. Elle s’est mariée avec Jérémie Bélingard (un danseur) en 2011. 
+            Elle est également mère de deux enfants ; Jacques (né en 2008) et Georges (né en 2011).
+            <h3>
+                Professionnel :
+            </h3>
+            Aurélie Dupont est une ancienne danseuse étoile (étoile est le titre suprême accordé aux artistes de la danse dans la hiérarchie du ballet de
+             l'Opéra national de Paris). Cette danseuse entre à l’Ecole de Danse de l’Opéra de Paris en 1983 à l’âge de 10ans, elle suit tous ses cours 
+             ici puis s’engage dans le Corps de Ballet de l’Opéra de Paris en 1989 (elle a 16 ans). Elle est promue “Coryphée” en 1991 puis “Sujet” en 1992.
+              Après de nombreuses représentations elle parvient à être promue “Première Danseuse” en 1996. Aurélie Dupont est par la suite nommée “Danseuse Etoile”
+               le 31 décembre 1998 à l’issue d’une représentation de DonQuichotte. Elle fait ses adieux à la scène d l’oOpéra le 18 mai 2015 puis est 
+               nommée “Directrice de la Danse” à l’Opéra national de Paris le 4 février 2016.
+        </div>
+        <img id="aurelie" src="asserts/aurelie.jpeg" alt="image de aurelie dupont">
+        <div id="sous-titre">
+            Photo de Aurelie Dupont à l'Opera de Paris
+        </div>
+            <h2 class="questions" id="autre">
+                Quel autre sport voulez vous découvrir ?
+            </h2>
+            <div class="decouverte">
+                <!-- Carte MMA -->
+                <div class="card">
+                    <img src="asserts/mma.jpeg" alt="Image mma" class="card-image">
+                    <div class="card-content">
+                        <h2 class="card-title">MMA</h2>
+                        <p class="card-text">Un sport de combat très intéressant.</p>
+                        <a href="mma.html" class="card-button">Découvrir</a>
+                    </div>
+                </div>
+        
+                <!-- Carte Skate -->
+                <div class="card">
+                    <img src="asserts/skate.jpeg" alt="Image skate" class="card-image">
+                    <div class="card-content">
+                        <h2 class="card-title">SKATE</h2>
+                        <p class="card-text">Un magnifique sport à regarder et à pratiquer.</p>
+                        <a href="skate.html" class="card-button">Découvrir</a>
+                    </div>
+                </div>
+            </div>
+        <div class="degrade"></div>
+        <footer>
+            <div class="infos">
+                <a class="propos"> A propos de nous</a>
+                <a>Roffidal Ambre</a>
+                <a>El Kassouf Simon</a>
+                <a>Heng Hugo</a>
+            </div>
+            <img src="asserts/iut-aix.png" alt="logo iut " id="iut">
+            <img src="asserts/logo.png"  alt="logo reseaux" id="logo">
+        </footer>
+        <script src="danse.js"></script>
+    </body> 
 </html>
-
