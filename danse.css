@@ -282,7 +282,11 @@ footer {
 @media (max-width: 900px) {
 
     .nav-links ul li a {
-        font-size: 1.3rem;  
+        font-size: 1.3rem;
+    }
+
+    .nav-links ul li.deroulant:focus .sous-menu {
+        display: block;
     }
 }
 
