@@ -144,8 +144,6 @@
 }
 
 .section-1 img {
-    width: 500px;
-    height: 350px;
     display: flex;
     border: 5px solid black;
     border-radius: 25px;
@@ -167,6 +165,17 @@
     padding: 30px;
     border-left: 3px solid #CC5656;
     font-size: 23px;
+}
+
+@media (max-width: 900px) {
+    .section-1 p {
+        font-size: 45px;
+    }
+
+    .section-1 h2 {
+        font-size: 50px;
+        width: 70%;
+    }
 }
 
 
@@ -223,6 +232,18 @@
     height: auto;
 }
 
+@media (max-width: 900px) {
+    .histoire p {
+        font-size: 45px;
+    }
+
+    .histoire h2 {
+        font-size: 50px;
+        width: 70%;
+    }
+}
+
+
 .frise {
     margin-top: 60px;
 }
@@ -245,8 +266,6 @@
 }
 
 .histoire1 img{
-    width: 400px;
-    height: 500px;
     display: flex;
     overflow: hidden;
     justify-content: center;
@@ -279,8 +298,6 @@
 }
 
 .histoire3 img{
-    width: 700px;
-    height: 500px;
     display: flex;
     overflow: hidden;
     justify-content: center;
@@ -350,8 +367,24 @@
     margin: 10px;
 }
 
+@media (max-width: 900px) {
+    .base-mma p {
+        font-size: 40px;
+    }
+
+    .base-mma h3 {
+        font-size: 50px;
+        width: 70%;
+    }
+
+    .card1 ul li {
+        font-size: 40px;
+    }
+}
+
 .card1 ul li {
     list-style:disc;
+    margin: 20px;
 }
 
 .card1 ul {
@@ -398,6 +431,17 @@
     border-left: 3px solid #CC5656;
     font-size: 23px;
     height: auto;
+}
+
+@media (max-width: 900px) {
+    .contenu-s4,.compet-orga p {
+        font-size: 45px;
+    }
+
+    .compet-orga h2 {
+        font-size: 50px;
+        width: 70%;
+    }
 }
 
 .comp1 {
@@ -458,6 +502,21 @@
 .celebrite p {
     margin: 20px;
     font-size: 18px;
+}
+
+@media (max-width: 900px) {
+    .celebrite p {
+        font-size: 40px;
+    }
+
+    .celebrite h2 {
+        font-size: 50px;
+        width: 70%;
+    }
+
+    .celebrite h3 {
+        font-size: 45px;
+    }
 }
 
 .connor {
@@ -591,7 +650,22 @@ video {
     font-size: 20px;
 }
 
-.contenu-decouverte button {
+@media (max-width: 900px) {
+    .celebrite p {
+        font-size: 35px;
+    }
+
+    .celebrite h2 {
+        font-size: 50px;
+        width: 70%;
+    }
+
+    .celebrite h3 {
+        font-size: 40px;
+    }
+}
+
+.contenu-decouverte a {
     display: flex;
     align-items: center;
     margin-top: 20px;
@@ -601,7 +675,7 @@ video {
     border-radius: 15px;
 }
 
-.contenu-decouverte button:hover {
+.contenu-decouverte a:hover {
     background-color: #333;
     transform: scale(1.04);
 }
@@ -789,17 +863,18 @@ footer {
     
     .section-1 {
         flex-direction: column;
+        font-size: 50px;
     }
 
     .rectangle {
-        height: 1900px;
-        width: 40px;
+        height: 2900px;
+        width: 50px;
     }
 
     .triangle {
         
-	    border-left:20 px solid transparent;
-	    border-right: 20px solid transparent;
+	    border-left:25 px solid transparent;
+	    border-right: 25px solid transparent;
 	    border-top: 40px solid #CC5656;
     }
 

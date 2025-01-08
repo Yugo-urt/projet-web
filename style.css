@@ -127,14 +127,15 @@ h1 {
 }
 
 .gauche {
-    width: 600px;
-    height: 750px;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.gauche img {
     border: 5px solid black;
-    border-radius: 25px;
+    border-radius: 20px;
 }
 
 .droite {
@@ -151,8 +152,6 @@ h1 {
 }
 
 .img2 {
-    width: 700px;
-    height: 350px;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -162,9 +161,7 @@ h1 {
 }
 
 .img3 {
-    width: 700px;
-    height: 350px;
-
+    
     overflow: hidden;
     display: flex;
     justify-content: center;
