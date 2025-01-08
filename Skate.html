@@ -1,75 +1,88 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Le Skateboard</title>
-    <link rel="stylesheet" href="Untitled-5.css">
-</head>
-<body>
-    <header class="main-header">
-        <div class="container">
-            <h1 class="logo">Le Skateboard</h1>
-            <br> 
-            <center>Un sport extrême</center>
-            <br> 
-            <nav class="navbar">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Le Skateboard</title>
+        <link rel="stylesheet" href="Skate.css">
+    </head>
+    <body>
+        <nav class="navBar">
+            <div class="nav-links">
                 <ul>
-                    <li><a href="#accueil">Accueil</a></li>
-                    <li><a href="#sport">Sport</a></li>
-                    <li><a href="#avis">Avis</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#section-acceuil">Accueil</a></li>
+                    <li class="deroulant">
+                        <a>Sport <img src="https://cdn-icons-png.flaticon.com/512/25/25623.png" alt="fleche"></a>
+                        <ul class="sous-menu">
+                            <li><a href="MMA.html">MMA</a></li>
+                            <li><a href="danse.html">Danse Classique</a></li>
+                            <li><a href="Skate.html">Skate</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#section-avis">Avis</a></li>
+                    <li><a href="#section-contact">Contact</a></li>
                 </ul>
-            </nav>
-        </div>
-    </header>
-
-
-    <div>
-        <div id="PartieImage0">
-            <ul>
-                <img width="40%" src="https://skateboardinghalloffame.org/wp-content/uploads/2021/08/MullenAirwalk88CarsonBrittain.jpg.jpg"/>
-            </ul>
-        </div>
-
-    <div id="titre">
-        <p>Un sport fait pour vous ?</p>
-    </div>
-
-    <div id="sub0">
-        <p>Voici une brève histoire sur le skateboard et ce qu'il devient aujourd'hui<p>
-    </div>
-    </div>
-
-   
-    <div id="line">
-        <P><HR NOSHADE></P>
-    </div>
-   
-
-    
-    <div id="Global">
-        <div id="TitreP0">
-            <h2>C'est quoi le Skateboard ?</h2>
-        </div>
-        <p class="P0">
-            blablabla
-        </p>
-    </div>
-    
-
-    <footer id="contact" class="footer">
-        <div class="container">
-            <h3>À propos de nous</h3>
-            <p>Nom 1</p>
-            <p>Nom 2</p>
-            <p>Nom 3</p>
-            <div class="social-icons">
-                <a href="#">Facebook</a>
-                <a href="#">Instagram</a>
-                <a href="#">Twitter</a>
             </div>
+            <button class="switch-theme">Changer Thème</button>
+        </nav>
+    
+    
+        <div>
+            <div id="PartieImage0">
+                <ul>
+                    <img width="40%" src="https://skateboardinghalloffame.org/wp-content/uploads/2021/08/MullenAirwalk88CarsonBrittain.jpg.jpg"/>
+                </ul>
+            </div>
+        
+        <div id="titre">
+            <p>Un sport fait pour vous ?</p>
         </div>
-    </footer>
-</body>
+    
+        <div id="sub0">
+            <p>Voici une brève histoire sur le skateboard et ce qu'il devient aujourd'hui<p>
+        </div>
+        </div>
+    
+    
+        <div id="line">
+            <P><HR NOSHADE></P>
+        </div>
+    
+    
+        
+        <div id="Global">
+            <div id="TitreP0">
+                <h2>C'est quoi le Skateboard ?</h2>
+            </div>
+            <p class="P0">
+                blablabla
+            </p>
+        </div>
+        
+    
+        <footer id="section-contact">
+            <div class="footer-contenu">
+                <div class="about">
+                    <h3>À propos de nous</h3>
+                    <ul>
+                        <li>Ambre Roffidal</li>
+                        <li>Hugo Heng</li>
+                        <li>El Kassouf Simon</li>
+                    </ul>
+                </div>
+                <div class="footerbot">
+                    <div class="logo">
+                        <a href="https://iut.univ-amu.fr/fr"><img src="https://cdn.prod.website-files.com/62233c592d2a1e009d42f46c/6721d1e49f177ad82831c78d_6721d128be211c512f8605e3_Logo%2520IUT%2520Aix%2520Marseille.webp" alt="IUT Logo"></a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/iutaixmars/?hl=fr"><img class="social-logo" src="https://www.pngplay.com/wp-content/uploads/5/Instagram-Logo-Dark-Black-PNG.png" alt="Instagram"></a>
+                        <a href="https://www.youtube.com/channel/UCWDTfF0ved1c_bChVrRjjog"><img class="social-logo" src="https://cdn-icons-png.flaticon.com/512/152/152810.png" alt="YouTube"></a>
+                        <a href="https://x.com/iutaixmars"><img class="social-logo" src="https://static.vecteezy.com/system/resources/previews/042/148/611/non_2x/new-twitter-x-logo-twitter-icon-x-social-media-icon-free-png.png" alt="X"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--script js, mode sombre-->
+        <script src="theme.js"></script>
+    </body>
 </html>
