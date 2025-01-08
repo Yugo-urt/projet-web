@@ -354,7 +354,7 @@ footer {
 
 .footer-contenu {
     display: flex;
-    align-items: left;
+    align-items: flex-start;
     flex-wrap: wrap;
     flex-direction: column;
     gap: 20px;
@@ -373,7 +373,7 @@ footer {
     list-style: none;
     margin: 0;
     padding: 0;
-    text-align: left;
+    text-align:left;
 }
 
 .about li {

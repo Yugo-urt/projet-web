@@ -111,15 +111,15 @@ body.dark #ancrage {
 .switch-theme {
     text-decoration: none;
     color: black;
-    font-size: 1,1rem;
+    font-size: 1rem;
     padding: 10px 15px;
-    background-color: #923333;
+    background-color: #6a1f1f;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
 .switch-theme:hover {
-    background-color: #9c2f2f;
+    background-color: #902525;
 }
 
 
@@ -751,7 +751,7 @@ footer {
 
 .footer-contenu {
     display: flex;
-    align-items: left;
+    align-items: flex-start;
     flex-wrap: wrap;
     flex-direction: column;
     gap: 20px;
@@ -894,7 +894,6 @@ footer {
 
     .triangle {
         
-	    border-left:25 px solid transparent;
 	    border-right: 25px solid transparent;
 	    border-top: 40px solid #CC5656;
     }
