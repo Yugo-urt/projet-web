@@ -1,0 +1,110 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+}
+
+
+#titre {    
+    font-size: 400%;
+    margin-left: 700px;
+    position: relative;
+    top: -500px;
+    background-color: white;
+}
+
+#sub0 {
+    margin-left: 700px;
+    position: relative;
+    top: -575px;
+    background-color: white; 
+}
+
+#line {
+    position: relative;
+    top: -265px;
+}
+
+#Global {
+
+}
+
+#TitreP0 {
+    font-size: 175%;
+    position: relative; 
+    margin-left: 525px;
+    top: -200px;
+}
+
+.P0 {
+    margin-left: auto;
+    margin-right: auto;    
+    text-align: start;
+}
+/* En-tête principal */
+.main-header {
+    background-color: #222;
+    color: white;
+    padding: 10px 0;
+}
+
+.main-header .logo {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+    
+
+
+/* Pied de page */
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer h2 {
+    margin-bottom: 10px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer .social-icons a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer .social-icons a:hover {
+    text-decoration: underline;
+}
