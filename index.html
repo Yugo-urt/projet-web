@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="sport" content="MMA,Danse-Classique,Skate">
+        <link rel="stylesheet" href="style.css" media="all">
+        <title>Acceuil</title>
+    </head>
+    <body class="light">
+        <nav class="navBar">
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#section-acceuil">Accueil</a></li>
+                    <li class="deroulant">
+                        <a>Sport <img src="https://cdn-icons-png.flaticon.com/512/25/25623.png" alt="fleche"></a>
+                        <ul class="sous-menu">
+                            <li><a href="MMA.html">MMA</a></li>
+                            <li><a href="danse.html">Danse Classique</a></li>
+                            <li><a href="#">Skate</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#section-avis">Avis</a></li>
+                    <li><a href="#section-contact">Contact</a></li>
+                </ul>
+            </div>
+            <button class="switch-theme">Changer Thème</button>
+        </nav>
+        
+
+
+
+
+
+
+        <!-- Acceuil -->
+
+        <section id="section-acceuil" class="acceuil">
+            <div class="gauche">
+                <img src="https://cdn.shopify.com/s/files/1/0557/5239/2813/files/Skate_Styles.jpg?v=1696950917" alt="image-1">
+            </div>
+            <div class="droite">
+                <div class="img2"><img src="https://imgresizer.eurosport.com/unsafe/1200x0/filters:format(jpeg)/origin-imgresizer.eurosport.com/2023/04/06/3677818-74846288-2560-1440.jpg" alt="image-2"></div>
+                <h1>Trouvez le sport fait pour vous !</h1>
+                <div class="img3"><img src="https://stagestep.com/wp-content/uploads/2023/12/AdobeStock_485607028-1080x675.jpeg" alt="image-3"></div>
+            </div>
+        </section>
+
+
+        <!-- Sports -->
+        <section id="section-sport" class="sports">
+            <h2>Sports</h2>
+            <div class="sports-cards">
+                <!-- Card 1 -->
+                <div class="card">
+                    <img src="https://www.lequipe.fr/_medias/img-photo-jpg/roxana-maracineanu-la-ministre-des-sports-a-entrouvert-la-porte-a-la-reconnaissance-du-mma-en-france-le-2-avril-dernier-f-seguin-l-equipe/1500000001139568/298:75,1553:1330-828-828-75/d0bb5" alt="Image MMA">
+                    <h3>MMA</h3>
+                    <p>Découvrez l'art du combat complet, combinant lutte, boxe et jiu-jitsu.</p>
+                    <a href="MMA.html">Découvrir</a>
+                </div>
+                <!-- Card 2 -->
+                <div class="card">
+                    <img src="https://toutelaculture.com/wp-content/uploads/2015/07/New_20140818_MistyandAlex_0561-806x1008.jpg" alt="Image Danse">
+                    <h3>Danse Classique</h3>
+                    <p>La grâce et la discipline d'un art qui traverse les âges.</p>
+                    <a href="danse.html">Découvrir</a>
+                </div>
+                <!-- Card 3 -->
+                <div class="card">
+                    <img src="https://www.bordeaux-tourisme.com/sites/bordeaux_tourisme/files/styles/widget_mesh/public/medias/widgets/misc/P1096667-Lion-RAW-Photographie-@lion.raw_photo.jpg.webp?itok=nrQSUBrb" alt="Image Skate">
+                    <h3>Skate</h3>
+                    <p>Exprimez votre créativité à travers des figures et des mouvements audacieux.</p>
+                    <a href="#">Découvrir</a>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+<!-- Avis -->
+        <section id="section-avis" class="avis">
+            <h2>Avis</h2>
+            <form action="mailto:my@simon.el-kassouf@etu.univ-amu.fr" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" id="prenom" name="prenom" required>
+                </div>
+                <div class="form-group">
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Soumettre mon avis</button>
+            </form>
+        </section>
+
+
+
+
+
+<!-- Footer -->
+        <footer id="section-contact">
+            <div class="footer-contenu">
+                <div class="about">
+                    <h3>À propos de nous</h3>
+                    <ul>
+                        <li>Ambre Roffidal</li>
+                        <li>Hugo Heng</li>
+                        <li>El Kassouf Simon</li>
+                    </ul>
+                </div>
+                <div class="footerbot">
+                    <div class="logo">
+                        <a href="https://iut.univ-amu.fr/fr"><img src="https://cdn.prod.website-files.com/62233c592d2a1e009d42f46c/6721d1e49f177ad82831c78d_6721d128be211c512f8605e3_Logo%2520IUT%2520Aix%2520Marseille.webp" alt="IUT Logo"></a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/iutaixmars/?hl=fr"><img class="social-logo" src="https://www.pngplay.com/wp-content/uploads/5/Instagram-Logo-Dark-Black-PNG.png" alt="Instagram"></a>
+                        <a href="https://www.youtube.com/channel/UCWDTfF0ved1c_bChVrRjjog"><img class="social-logo" src="https://cdn-icons-png.flaticon.com/512/152/152810.png" alt="YouTube"></a>
+                        <a href="https://x.com/iutaixmars"><img class="social-logo" src="https://static.vecteezy.com/system/resources/previews/042/148/611/non_2x/new-twitter-x-logo-twitter-icon-x-social-media-icon-free-png.png" alt="X"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--script js, mode sombre-->
+        <script src="theme.js"></script>
+    </body>
+</html>
