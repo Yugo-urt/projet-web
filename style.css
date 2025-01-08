@@ -70,7 +70,7 @@
     margin: 0;
 }
 
-.nav-links ul li.deroulant .sous-menu li a {
+.nav-links ul li.deroulant .sous-menu li {
     padding: 10px 20px;
     display: block;
     white-space: nowrap;

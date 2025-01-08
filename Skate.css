@@ -116,17 +116,16 @@ body {
     line-height: 1.6;
 }
 
-#PartieImage0 {
-    margin-left: 24px; 
-    margin-top: 24px; 
-}
-
-#titre {    
+h1 {
     font-size: 400%;
     margin-left: 700px;
     position: relative;
     top: -500px;
-    
+}
+
+#PartieImage0 {
+    margin-left: 24px; 
+    margin-top: 24px; 
 }
 
 #sub0 {
@@ -142,57 +141,72 @@ body {
 }
 
 #Global {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#TitreP0 {
+.TitreP0 {
     font-size: 175%;
-    position: relative; 
-    margin-left: 525px;
     top: 0px;
+    display: flex;
 }
 
 .P0 {
-    margin-left: auto;
-    margin-right: auto;    
-    text-align: start;
-}
-/* En-tête principal */
-.main-header {
-    background-color: #222;
-    color: white;
-    padding: 10px 0;
+    margin: 50px;
+    display: flex;   
 }
 
+#Global ul li{
+    list-style:disc;
+    margin: 20px;
+}
 
-.main-header .logo {
+#Global ul {
+    margin: 20px;
+}
+
+.card-image{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.card {
+    width: 250px; 
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: inline-block; 
+    margin: 40px;
     text-align: center;
-    font-size: 2rem;
-    margin: 0;
+    color :black;
+}
+.decouverte {
+    text-align: center; 
 }
 
-.navbar ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    margin: 10px 0 0;
+
+.card-content {
+    padding: 15px;
 }
 
-.navbar ul li {
-    margin: 0 15px;
-}
-
-.navbar ul li a {
+.card-button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 14px;
     color: white;
+    background-color: #363333;
     text-decoration: none;
-    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
-.navbar ul li a:hover {
-    text-decoration: underline;
+.card-button:hover {
+    background-color: #4e4747;
 }
-
     
 
 
@@ -202,9 +216,7 @@ footer {
     background-color: #D9D9D9;
     padding: 20px 40px;
 }
-body.dark.footer {
-    background-color: #222;
-}
+
 .footer-contenu {
     display: flex;
     align-items: left;
@@ -283,4 +295,25 @@ body.dark.footer {
     .nav-links ul li.deroulant:focus .sous-menu {
         display: block;
     }
+}
+
+body.dark {
+    color: white;
+    background-color: #333;
+}
+
+body.dark .navBar {
+    background-color: #696767;
+}
+
+body.dark .nav-links ul li a{
+    color: white;
+}
+
+body.dark .nav-links ul li.deroulant .sous-menu {
+    background-color: #696767;
+}
+
+body.dark footer {
+    background-color: #696767;
 }
